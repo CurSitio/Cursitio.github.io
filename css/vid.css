@@ -61,3 +61,15 @@ article{
 .footer{
     position: relative;
 }
+@media (max-width: 800px){
+    article{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .video_content{
+        width: 100%;
+    }
+    .comments{
+        width: 100%;
+    }
+}
